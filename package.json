@@ -1,0 +1,30 @@
+{
+  "name": "pr-snippets",
+  "displayName": "PR Snippets",
+  "description": "Simple HTML CSS Bootstrap Snippets Generator",
+  "version": "1.0.0",
+  "publisher": "PrahladInala",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.43.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+    "Html 5 Startup Template": {
+        "prefix": "!prh",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Create HTML 5 Starter Template"
+    },
+    "Html 5 and Css 3 Startup Template": {
+        "prefix": "!prhc",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<link rel = \"stylesheet\" type = \"text/css\" href = \"style.css\" />",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Create HTML 5 and CSS 3 Starter Template"
+    },
+    "Bootstrap Startup Template": {
+        "prefix": "!prhbt",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">",
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "Bootstrap 4 Starter Template"
+    },
+    "HTML, CSS, JavaScript and Bootstrap Startup Template": {
+        "prefix": "!prhcjb",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html lang=\"en\">",
+            "<head>",
+            "<meta charset=\"UTF-8\">",
+            "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">",
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">",
+            "<link rel = \"stylesheet\" type = \"text/css\" href = \"style.css\" />",
+            "<title>${1:Title}</title>",
+            "</head>",
+            "<body>",
+            "$0",
+            "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>",
+            "<script type=\"text/javascript\" src=\"script.js\"></script>",
+            "</body>",
+            "</html>"
+        ],
+        "description": "HTML, CSS, JavaScript and Bootstrap 4 Starter Template"
+    },
+    "Bootstrap 4 Navbar": {
+        "prefix": "!prnav",
+        "body": [
+            "<nav class=\"navbar navbar-expand-lg navbar-light bg-light\">",
+            "<a class=\"navbar-brand\" href=\"#\">PRahlad Inala</a>",
+            "<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarNav\" aria-controls=\"navbarNav\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">",
+            "<span class=\"navbar-toggler-icon\"></span>",
+            "</button>",
+            "<div class=\"collapse navbar-collapse\" id=\"navbarNav\">",
+            "<ul class=\"navbar-nav\">",
+            "<li class=\"nav-item active\">",
+            "<a class=\"nav-link\" href=\"#\">Home <span class=\"sr-only\">(current)</span></a>",
+            "</li>",
+            "<li class=\"nav-item\">",
+            "<a class=\"nav-link\" href=\"#\">Features</a>",
+            "</li>",
+            "<li class=\"nav-item\">",
+            "<a class=\"nav-link\" href=\"#\">Pricing</a>",
+            "</li>",
+            "</ul>",
+            "</div>",
+            "</nav>"
+        ],
+        "description": "Bootstrap 4 Navbar"
+    },
+    "Bootstrap 4 Spinners": {
+        "prefix": "!prspin",
+        "body": [
+            "<div class=\"spinner-border\" role=\"status\">",
+            "<span class=\"sr-only\">Loading...</span>",
+            "</div>"
+        ],
+        "description": "Bootstrap 4 Spinners"
+    },
+    "Bootstrap 4 Cards": {
+        "prefix": "!prcard",
+        "body": [
+            "<div class=\"card\" style=\"width: 18rem;\">",
+                "<img src=\"...\" class=\"card-img-top\" alt=\"...\">",
+                "<div class=\"card-body\">",
+                    "<h5 class=\"card-title\">PRahlad Inala</h5>",
+                    "<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>",
+                    "<a href=\"#\" class=\"btn btn-primary\">Go somewhere</a>",
+                "</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap 4 Cards"
+    },
+    "Bootstrap 4 Footer": {
+        "prefix": "!prfooter",
+        "body": [
+            "<div class=\"container-fluid bottom-footer fixed-bottom\">",
+                "<div class=\"row\">",
+                    "<div class=\"col-12 bg-dark text-white text-center pt-2\">",
+                        "<p>PRahlad - Copyright © 2020 - All rights reserved </p>",
+                    "</div>",
+                "</div>",
+            "</div>"
+        ],
+        "description": "Bootstrap 4 Footer"
+    },
+    "Bootstrap 4 CDN": {
+        "prefix": "!btcdn",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" integrity=\"sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u\" crossorigin=\"anonymous\">",
+            "<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css\" integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous\">"
+        ],
+        "description": "Bootstrap 4 CDN"
+    },
+    "FontAwesome CDN": {
+        "prefix": "!fntcdn",
+        "body": [
+            "<link href=\"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN\" crossorigin=\"anonymous\">"
+        ],
+        "description": "FontAwesome CDN"
+    },
+    "Materialize CDN": {
+        "prefix": "!matcdn",
+        "body": [
+            "<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css\">",
+            "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js\"></script>"        
+        ],
+        "description": "Materialize CDN"
+    }
+
+}
